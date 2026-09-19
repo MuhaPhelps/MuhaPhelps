@@ -1,0 +1,24 @@
+name: engineering_calculations
+description: "Итоговый проект: система управления инженерными расчётами"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  provider: ^6.1.5+1
+  go_router: ^18.0.1
+  shared_preferences: ^2.5.5
+  dio: ^5.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
